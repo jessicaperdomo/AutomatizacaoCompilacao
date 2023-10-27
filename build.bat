@@ -10,9 +10,9 @@ REM Compara o arquivo de saída com o arquivo de referência
 fc out.txt out_ref.txt > nul
 
 if errorlevel 1 (
-    echo Arquivos são diferentes.
+    echo Arquivos sao diferentes.
 ) else (
-    echo Arquivos são iguais.
+    echo Arquivos sao iguais.
 )
 
 REM Limpa os arquivos intermediários
